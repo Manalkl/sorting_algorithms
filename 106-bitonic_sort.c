@@ -21,10 +21,10 @@ void swap_ints(int *a, int *b)
 }
 
 /**
- * bitonic_merge - Sort a bitonic sequence inside an array of int.
+ * bitonic_merge - Sort a bitonic sequence inside an arr of int.
  * @array: An array of int.
- * @size: The size of the array.
- * @start: The starting index of the sequence in array to sort.
+ * @size: The size of the arr
+ * @start: The starting index of the sequence in arr to sort.
  * @seq: The size of the sequence to sort.
  * @flow: The direction to sort in.
  */
@@ -47,7 +47,7 @@ void bitonic_merge(int *array, size_t size, size_t start, size_t seq,
 }
 
 /**
- * bitonic_seq - Convert an array of int into a bitonic sequence.
+ * bitonic_seq - Convert an arr of int into a bitonic sequence.
  * @array: An array of int.
  * @size: The size of the array.
  * @start: The starting index of a block of the building bitonic sequence.
@@ -74,7 +74,7 @@ void bitonic_seq(int *array, size_t size, size_t start, size_t seq, char flow)
 }
 
 /**
- * bitonic_sort - Sort an array of int in ascending order using the bitonic sort algorithm.
+ * bitonic_sort - Sort an arr of int in ascending using bitonic sort algorithm
  * @array: An array of int.
  * @size: The size of the array.
  *
